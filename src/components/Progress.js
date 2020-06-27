@@ -1,13 +1,13 @@
 import React from "react";
-import { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 
 
 function Progress({ width, percent,tech }) {
-    const [progress, setValue] = React.useState(0);
+    const [progress, setValue] = useState(0);
 
-    React.useEffect(() => {
+    useEffect(() => {
         setValue((percent * width)/10);
-    });
+    }, [percent, width]);
     return (
         <div >
             <div>
