@@ -41,7 +41,7 @@ function About(props) {
         <div style={{ backgroundColor: "#343a40", position: "absolute"}}>
             <Hero2 title={props.title} />
             <Contentheading>
-                Job Objective:
+                Job Objective :
             </Contentheading>
             <Content2>
                 Total 2.5+ years of experience in IT industry Has experience
@@ -54,7 +54,7 @@ function About(props) {
             </Content2>
 
             <Contentheading>
-                Technical skills
+                Technical skills :
             </Contentheading>
             <Content2>
                 <Progress tech={"Microsoft Power BI"} width={width / 10} percent={60} />
@@ -65,7 +65,7 @@ function About(props) {
             </Content2>
 
             <Contentheading>
-                Previous Experience
+                Previous Experience :
             </Contentheading>
             <Content2>
                 <Accordion >
