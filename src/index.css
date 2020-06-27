@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Open+Sans:wght@600&display=swap');
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.fontmain {
+    text-decoration: underline;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size:25px;
+   padding:15px 0;
+}
+.fontc {
+    font-family: 'Libre Baskerville', serif !important;
+    text-align:justify;
+}
+.example {
+    position: absolute !important;
+    background-color: #1b1b1b;
+}
+
+.main {
+    width: 100%;
+    height: 500px;
+}
+.curved svg{
+    display:block;
+    position:relative;
+  
+}
+.leftbtn {
+    display: inline;
+    position: relative;
+    overflow: hidden;
+}
+
+    .leftbtn::after {
+        display: block;
+        content: '';
+        border-bottom: solid 3px white;
+        transform: scaleX(0);
+        transition: transform 1s ease-in-out;
+        transform-origin: 100% 50%
+    }
+
+    .leftbtn:hover::after {
+        transform: scaleX(1);
+        transform-origin: 0 50%;
+    }
+
+.s-card {
+    margin: 20px;
+}
+
+.s-card-image {
+    border-radius: 10px;
+    width: 280px;
+    height: 360px;
+    box-shadow: 0px 0px 3px 3px #ccc;
+    margin-bottom: 25px;
+}
+
+.s-card-info {
+    min-height: 100px;
+    margin-top: 10px;
+}
+
+.s-cardtitle {
+    font-size: 24px;
+    margin: 0px;
+}
+
+.s-cardsub {
+    font-size: 16px;
+    margin: 0px;
+}
+
+.jumb {
+    background-color: black;
+}
+
+.textstyle {
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a.social {
+    margin: 5px 10px;
+    transition: transform 250ms;
+    display: inline-block;
+}
+
+    a.social:hover {
+        transform: translateY(-2px);
+    }
+
+
+a.linkdin {
+    color: #4968ad;
+}
+a.wordpress {
+    color: white;
+}
+
+a.mail {
+    color: red;
+}
+.progress-div {
+    background-color: rgb(233, 233, 233);
+    border-radius: .5rem;
+    margin: 10px 0;
+}
+
+.percen {
+    background-color: #dc3b2f;
+    height: 10px;
+    border-radius: 1rem;
+    transition: 4s ease;
+    transition-delay: 0.5s;
+}
+
+.circleimg {
+    height: 140px;
+    position: absolute;
+    right: 0px;
+}
+
+.mainimg {
+    position: absolute;
+    top: 70px;
+    right: 20px;
+}
+
+.acctog {
+    color: black;
+}
+
+.iconclass {
+    float: right;
+}
+
+@media only screen and (max-width: 768px) {
+    .mainimg {
+        right: 10px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .mainimg {
+        right: 10px;
+    }
+}
+
+.content {
+    margin-top: 20px;
+
+}
